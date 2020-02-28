@@ -1,3 +1,11 @@
+const width = window.innerWidth;
+const height = window.innerHeight;
+let timerID = 0;
+let c = document.getElementByIOd("canvas");
+let ctx = c.getContext("2d");
+c.width = width;
+c.height = height;
+
 const flock = [];
 
 function setup() {
@@ -17,3 +25,5 @@ function draw() {
     boid.update();
   }
 }
+
+draw();
