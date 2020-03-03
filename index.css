@@ -5,6 +5,8 @@ body {
   width: 100%;
   overflow: hidden;
 } */
-canvas {
+
+#canvas {
   border: 1px solid black;
+  margin: 0px;
 }
